@@ -17,18 +17,18 @@ export const schema = {
                     "isRequired": true,
                     "attributes": []
                 },
-                "description": {
-                    "name": "description",
+                "imageUri": {
+                    "name": "imageUri",
                     "isArray": false,
                     "type": "String",
                     "isRequired": false,
                     "attributes": []
                 },
-                "isComplete": {
-                    "name": "isComplete",
+                "status": {
+                    "name": "status",
                     "isArray": false,
-                    "type": "Boolean",
-                    "isRequired": true,
+                    "type": "String",
+                    "isRequired": false,
                     "attributes": []
                 },
                 "createdAt": {
@@ -76,5 +76,5 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "192dc2721d3d4ec971acb378f8054cdf"
+    "version": "70ce3a056a01188f16b77cff06482804"
 };

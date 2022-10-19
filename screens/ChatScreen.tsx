@@ -7,6 +7,7 @@ import { Text, View } from '../components/Themed';
 import chatRoom from '../data/ChatRoom';
 import Chat from '../data/Chat';
 import { RootTabScreenProps } from '../types';
+import NewMessageButton from '../components/NewMessageButton';
 
 export default function ChatScreen({ navigation }: RootTabScreenProps<'Chats'>) {
   return (
@@ -17,6 +18,7 @@ export default function ChatScreen({ navigation }: RootTabScreenProps<'Chats'>) 
         renderItem={({ item }) => <ChatListItem chatRoom={item} />}
         ItemSeparatorComponent={() => <View style={{ height: 5 }} />}
       />
+      <NewMessageButton />
     </View>
   );
 }

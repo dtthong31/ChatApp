@@ -5,13 +5,16 @@ const styles = StyleSheet.create({
         width: 60,
         height: 60,
         marginRight: 15,
+        borderRadius: 50
     },
     container: {
         // flex: 1,
         flexDirection: 'row',
         width: "100%",
         justifyContent: 'space-between',
-        height: 60,
+        height: 70,
+        marginVertical: 2,
+        marginHorizontal: 5
     },
     midContainer: {
         justifyContent: 'space-around'
