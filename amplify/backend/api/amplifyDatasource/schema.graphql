@@ -1,0 +1,6 @@
+type AppChat @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  status: String
+  image: String
+}
